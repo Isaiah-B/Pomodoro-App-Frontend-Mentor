@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+
 import { ReactComponent as LogoSVG } from './assets/logo.svg';
 import { TimerSelectContainer } from './components/timer-select/timer-select.styles';
 import { TimerContainer } from './components/timer/timer.styles';
