@@ -59,6 +59,10 @@ export const InputArrows = styled.div`
   position: absolute;
   right: 1.5rem;
   top: 22%;
+
+  @media (max-width: 38em) {
+    top: 14%;
+  }
 `;
 
 export const ArrowButton = styled.button`
