@@ -49,10 +49,6 @@ export const ProgressBar = styled.svg`
   height: 100%;
 
   circle {
-    cx: 75;
-    cy: 75;
-    r: 165;
-
     width: 100%;
     height: 100%;
     transform: rotate(-90deg);

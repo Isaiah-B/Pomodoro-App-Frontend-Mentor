@@ -30,7 +30,7 @@ function Timer() {
 
     return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
   };
-
+  
   const changeStatus = () => {
     if (status === 'paused') setStatus('active');
     else if (status === 'active') setStatus('paused');
@@ -99,7 +99,7 @@ function Timer() {
           <ProgressBar
             color={color.regular}
             progress={progress.current}>
-            <circle />
+            <circle r="45%" cy="50%" cx="50%"/>
           </ProgressBar>
 
           <TimerContent>
