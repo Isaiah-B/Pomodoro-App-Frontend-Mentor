@@ -61,12 +61,6 @@ export const ProgressBar = styled.svg`
     stroke-dasharray: 1037px;
     stroke-dashoffset: calc((-${({ progress }) => progress} * 1037px) + 1037px);
     stroke-linecap: round;
-
-    @media (max-width: 27em) {
-      cx: 75;
-      cy: 75;
-      r: 120;
-    }
   }
 `;
 
