@@ -99,7 +99,7 @@ function Timer() {
           <ProgressBar
             color={color.regular}
             progress={progress.current}>
-            <circle r="45%" cy="50%" cx="50%"/>
+            <circle r="45%" cy="50%" cx="50%" />
           </ProgressBar>
 
           <TimerContent>
