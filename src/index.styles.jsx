@@ -82,10 +82,6 @@ export const GlobalStyles = createGlobalStyle`
       font-size: ${({ styles }) => styles.font === `'Space Mono', monospace` ? '1.1rem' : '1.2rem'};
     }
   }
-
-  button {
-    font-family: inherit;
-  }
 `;
 
 
